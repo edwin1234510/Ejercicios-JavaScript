@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #bdd8fb;
+}
+.navegador{
+    max-width: 1300px;
+    margin: 100px auto;
+    text-align: center;
+}
+.titulo{
+    font-size: 38px;
+    color: #07467d;
+    text-shadow: 3px 3px 8px rgb(93, 93, 93);
+    margin: 0 17px 50px 17px;
+}
+.listado{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.lista{
+    list-style: none;
+    margin: 10px;
+    padding: 12px;
+    background-color: rgb(5, 162, 205);
+    border-radius: 18px;
+    box-shadow: 9px 9px 9px 0 black;
+}
+.link{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+@media(width  < 1304px){
+    .listado{
+        display: grid;
+        grid-template-columns: repeat(9,1fr);
+        grid-template-rows: auto;
+    }
+}
+@media(width  < 1153px){
+    .listado{
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows: auto;
+    }
+}
+@media(width  < 1031px){
+    .listado{
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: auto;
+    }
+}
+@media(width  < 911px){
+    .listado{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: auto;
+    }
+}
+@media(width  < 788px){
+    .listado{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: auto;
+    }
+}
+@media(width  < 666px){
+    .listado{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: auto;
+    }
+}
+@media(width  < 544px){
+    .listado{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+    }
+}
+@media(width  < 423px){
+    .listado{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+    }
+}
+@media(width  < 304px){
+    .listado{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+    }
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #bdd8fb;
+    text-align: center;
+}
+h1{
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+p{
+    margin: 0 40px;
+    margin-bottom: 60px;
+}
+a{
+    padding: 12px;
+    font-size: 18px;
+    background-color: rgb(5, 162, 205);
+    text-decoration: none;
+    color: #000;
+    border-radius: 15px;
+    box-shadow: 9px 9px 9px 0 black;
+}
